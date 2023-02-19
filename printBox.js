@@ -5,7 +5,7 @@ for (let r=1;r<=height;r++) {
     if (r==1 || r==height || l==1 || l==width) {
       board=board+ "*";
     } else { board=board+" ";
-    }
+    } 
     board=board + "\n";
     console.log(board);
   

@@ -21,6 +21,7 @@ function TreeConstructor(strArr) {
     parents[child] = parent;
   }
 
+
   
   for (let child in parents) {
     let parent = parents[child];
